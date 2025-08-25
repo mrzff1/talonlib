@@ -9,13 +9,16 @@ talonlib является криптографически защищенной 
 ## УСТАНОВКА
 ---
 **Стандартный метод (PyPI):**
-`pip install talonlib`
+```pip install talonlib
+```
 
 **Если на PyPI нет (TestPyPI):**
-`pip install talonlib --index-url https://test.pypi.org/simple/`
+```pip install talonlib --index-url https://test.pypi.org/simple/
+```
 
 Ручная установка (тянем с github):
-`git pull https://github.com/mrzff1/talonlib`
+```git pull https://github.com/mrzff1/talonlib
+```
 
 ## С ЧЕГО НАЧАТЬ?
 ---
@@ -49,7 +52,6 @@ print(security.hwid(hardware_list = ('CPU_CORES', 'CPU_MAX_FREQ', 'CPU_MIN_FREQ'
 
 **Использование кодировки base32-кириллица**
 ```python
-from talonlib import base32
 from talonlib import base32
 binary = base32.decode('привет')
 print(binary)
@@ -153,3 +155,4 @@ print(security.hwid())
 **Почему это существует?** Это сатира. Рабочая сатира.
 
 **Как декодировать данные из generate обратно?** Никак! Но вы можете их верифицировать (в теории)
+
