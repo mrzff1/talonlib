@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+pyvenv.cfg
+venv/
+dist/
+build/
+lib/
+lib64/
+include/
+bin/
+*.egg-info/
