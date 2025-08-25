@@ -9,15 +9,18 @@ talonlib является криптографически защищенной 
 ## УСТАНОВКА
 ---
 **Стандартный метод (PyPI):**
-```pip install talonlib
+```
+pip install talonlib
 ```
 
 **Если на PyPI нет (TestPyPI):**
-```pip install talonlib --index-url https://test.pypi.org/simple/
+```
+pip install talonlib --index-url https://test.pypi.org/simple/
 ```
 
 Ручная установка (тянем с github):
-```git pull https://github.com/mrzff1/talonlib
+```
+git pull https://github.com/mrzff1/talonlib
 ```
 
 ## С ЧЕГО НАЧАТЬ?
@@ -47,7 +50,8 @@ print(security.hwid())
 **Настройка HWID**
 ```python
 from talonlib import security
-print(security.hwid(hardware_list = ('CPU_CORES', 'CPU_MAX_FREQ', 'CPU_MIN_FREQ', 'RAM'))) # Все кроме "MAC": у устройств с одинаковым ЦП и объемом ОЗУ будет генерироваться одинаковый HWID
+print(security.hwid(hardware_list = ('CPU_CORES', 'CPU_MAX_FREQ', 'CPU_MIN_FREQ', 'RAM')))
+# Все кроме "MAC": у устройств с одинаковым ЦП и объемом ОЗУ будет генерироваться одинаковый HWID
 ```
 
 **Использование кодировки base32-кириллица**
