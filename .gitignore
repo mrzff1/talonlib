@@ -5,7 +5,7 @@ venv/
 dist/
 build/
 lib/
-lib64/
+lib64
 include/
 bin/
 *.egg-info/
