@@ -1,5 +1,7 @@
 # 🇷🇺 talonlib v1.3.1 beta
 
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/talonlib?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=BLACK&left_text=%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BE%D0%BA%3A+)](https://pepy.tech/projects/talonlib)
+
 **talonlib** - библиотека, опережающая свое время, использующая запатентованную технологию **УНППТ™** (Уникальная Необратимая Публичная Подпись Талона). Создана **для Минцифры**.
 
 ## ВВЕДЕНИЕ
