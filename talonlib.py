@@ -82,7 +82,7 @@ class security:
     rounds = 8,
     return_all_rounds = True
     ):
-    data = f'[{security.hwid()}] [{datetime.now().date()}] {text}'
+    data = text
     if use_date: data = f'[{datetime.now().date()}] {data}'
     if use_hwid: data = f'[{security.hwid()}] {data}'
     result = ''
